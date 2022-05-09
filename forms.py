@@ -8,4 +8,4 @@ class UserForm(FlaskForm):
     
     
 class TweetForm(FlaskForm):
-    text = StringField("Enter your tweet", validators=[InputRequired])
+    text = StringField("Enter your tweet", validators=[InputRequired()])
